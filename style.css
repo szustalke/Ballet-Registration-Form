@@ -1,0 +1,92 @@
+
+
+body{
+    background-image: url("ballet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-origin: content-box;
+    
+    
+}
+
+
+#form{
+    width:420px;
+   
+    border: black 2px solid;
+    border-radius:15px;
+    padding:50px;
+    padding-bottom:50px;
+    text-align:center;
+    font-family:sans-serif, serif;
+    color:white;
+    
+    position:absolute;
+    left:50%;
+    top:50%;
+    
+    background-color: rgba(0, 0, 0, 0.89);
+    transform: translate(-50%,-50%);
+    
+}
+
+#form label{
+    font-size:13px;
+    
+}
+
+
+label{
+    float:left;
+}
+input {
+    float:right;
+    border:0;
+    border-bottom:1px solid red;
+    background:transparent;
+    color:white;
+    text-align:right;
+    
+}
+
+#sex{
+    float:right;
+    background-color:rgba(210, 44, 44, 0.8);
+    
+}
+
+#sex.active::before{
+    background-color:gray;
+}
+
+
+
+.form-standard input{
+    width:180px;
+}
+.checkbox1{
+    float:right;
+}
+
+.checkbox2{
+    float:left;
+}
+
+
+.container{
+    float:right;
+}
+
+#button1 input{
+    background:rgba(210, 44, 44, 0.8);
+    border: solid black 1px;
+    margin-left:35%;
+    margin-right:35%;
+    width:30%;
+    height:23px;
+    font-weight: bold;
+    color: rgba(20, 20, 19);
+    
+    
+}
